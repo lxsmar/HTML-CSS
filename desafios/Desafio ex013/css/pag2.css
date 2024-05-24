@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font: normal 15pt Arial;
+}
+.ytb{
+    float: top;    
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

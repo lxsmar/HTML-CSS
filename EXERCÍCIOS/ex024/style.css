@@ -1,0 +1,77 @@
+@charset "UTF-08";
+
+body{
+    background-color: rgb(143, 143, 143);
+    font: normal normal 18px Arial;
+    margin: 0px;
+}
+header{            
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    background-color: rgb(141, 141, 141);
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.322);   
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    margin-right: 30px;           
+}
+nav > a:hover{
+    color: lightblue;
+}
+nav > a:active{
+    color: rgb(61, 119, 226);
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.322);
+}
+article{
+    background-color: lightgrey; 
+    padding: 10px 5px 15px 5px;
+    border-radius: 10px 0px;
+} 
+article > h2{
+    margin: 1px;
+}
+article > aside{    
+    background-color: rgb(156, 156, 156);  
+    border-radius: 10px 0px 10px 10px;
+    margin-left: 355px;
+    width: 260px; 
+    box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.322);                             
+}
+article > aside > p {    
+    padding: 5px;
+    margin: 0px;    
+}
+article > aside > p > a{
+    text-decoration: none;
+    color: rgb(86, 43, 129);
+}
+article > aside > p > a:hover{
+    text-decoration: underline;
+}
+article > aside > p > a:active{
+    color: red;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;      
+    margin: 0px;      
+}
+footer > p{
+    margin: 0px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir este site em dispositivos diferentes ou simplesmente diminua e aumente o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Podemos reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="midias/musica.mp3" type="audio/mp3">
+        <p>Infelizmente seu navegador não possui compatibilidade com o arquivo de áudio.</p>
+        <a href="midias/musica.mp3" download="musica.mp3" application="audio/mpeg" target="_blank" rel="external">Baixe o áudio aqui!</a>
+    </audio>    
+</body>
+
+</html>
